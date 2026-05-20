@@ -10,7 +10,7 @@ buttons.forEach((button) => {
   });
 });
 
-const joinButtons = document.querySelectorAll('discord-button');
+const joinButtons = document.querySelectorAll('.discord-button');
 
 joinButtons.forEach((button) => {
   button.addEventListener('click', () => {
