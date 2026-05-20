@@ -28,4 +28,3 @@ joinButton.addEventListener('click', () => {
   window.open('https://discord.gg/2NJvqgNKhV', '_blank');
 });
 
-alert(1);
