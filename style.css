@@ -349,9 +349,8 @@ nav a:hover {
 .gallery-card {
   position: relative;
   overflow: hidden;
-  padding: 40px;
   border-radius: 30px;
-  min-height: 520px;
+  max-height: 520px;
   max-width: 520px;
   width: 100%;
   margin: 0 auto;
@@ -381,18 +380,10 @@ nav a:hover {
 }
 
 .gallery-info {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  width: clamp(260px, 90%, 720px);
-
+  width: 100%;
   padding: 16px 20px;
-
-  border-radius: 18px;
   background: rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
-
   z-index: 2;
 }
 
