@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #05060b;
+  color: white;
+  overflow-x: hidden;
+}
+
+.background-grid {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  z-index: -3;
+}
+
+.background-glow {
+  position: fixed;
+  border-radius: 999px;
+  filter: blur(120px);
+  z-index: -2;
+}
+
+  border: 1px solid rgba(255,255,255,0.08);
