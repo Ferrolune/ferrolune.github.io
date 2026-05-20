@@ -13,7 +13,7 @@ buttons.forEach((button) => {
 const joinButtons = document.querySelectorAll('discord-button');
 
 joinButtons.forEach((button) => {
-  joinButtons.addEventListener('click', () => {
+  button.addEventListener('click', () => {
     window.open('https://discord.gg/2NJvqgNKhV', '_blank');
   });
 });
