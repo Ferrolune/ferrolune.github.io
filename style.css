@@ -367,7 +367,7 @@ nav a:hover {
   position: absolute;
   bottom: 20px;
   left: 20px;
-
+  min-width: 100%;
   width: clamp(260px, 60%, 720px);
 
   padding: 16px 20px;
