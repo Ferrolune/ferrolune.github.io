@@ -27,3 +27,5 @@ const joinButton = document.getElementById('join-community');
 joinButton.addEventListener('click', () => {
   window.open('https://discord.gg/2NJvqgNKhV', '_blank');
 });
+
+alert(1);
