@@ -339,9 +339,10 @@ nav a:hover {
 }
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
   justify-content: start;
-  gap: 48px;
+  row-gap: 48px;
+  column-gap:36px;
   margin-top: 60px;
   align-items: start;
 }
