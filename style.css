@@ -303,7 +303,6 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  column-gap: 0px;
   margin-top: 60px;
 }
 
