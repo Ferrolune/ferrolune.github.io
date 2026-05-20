@@ -10,9 +10,13 @@ buttons.forEach((button) => {
   });
 });
 
-const joinButton = document.getElementById('join-community');
+const joinButtons = document.querySelectorAll('discord-button');
 
-joinButton.addEventListener('click', () => {
-  window.open('https://discord.gg/2NJvqgNKhV', '_blank');
+joinButtons.forEach((button) => {
+  joinButton.addEventListener('click', () => {
+    window.open('https://discord.gg/2NJvqgNKhV', '_blank');
+  });
 });
+
+
 
