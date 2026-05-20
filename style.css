@@ -64,6 +64,13 @@ body {
   margin-bottom: 4px;
 }
 
+.logo-block img {
+  width: clamp(50px, 8vw, 90px);
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .logo-block h1 {
   font-size: 30px;
 }
