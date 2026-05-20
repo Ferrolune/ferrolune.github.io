@@ -347,16 +347,21 @@ nav a:hover {
 .gallery-card {
   position: relative;
   overflow: hidden;
+  padding: 40px;
   border-radius: 30px;
   min-height: 500px;
   max-width: 520px;
   width: 100%;
   margin: 0 auto;
   border: 1px solid rgba(255,255,255,0.08);
-  background:
-    radial-gradient(circle at top left, rgba(0,255,255,0.12), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(168,85,247,0.15), transparent 35%),
-    linear-gradient(to bottom right, #101827, #0d1018, #241533);
+  background: rgba(255,255,255,0.04);
+  transition: 0.25s ease;
+}
+
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.06);
 }
 
 .gallery-card.large {
