@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -340,6 +339,7 @@ nav a:hover {
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  justify-content: start;
   gap: 48px;
   margin-top: 60px;
   align-items: start;
